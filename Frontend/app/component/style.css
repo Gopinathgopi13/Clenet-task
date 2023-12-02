@@ -1,0 +1,38 @@
+@media only screen and (max-width: 480px) {
+    #fadeshow1 {
+        display: none;
+    }
+    .text_btn1{
+        text-transform: none;
+        /* width: 150px; */
+        font-size: 12px;
+    }
+    .text_btn2{
+        text-transform: none;
+        width: 130px;
+        padding: 1px;
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 481px) {
+    #fadeshow2 {
+        display: none;
+    }
+    .text_btn1{
+        text-transform: none;
+    }
+    
+    .text_btn2{
+        text-transform: none;
+    }
+    .text_btn2:hover{
+        background-color: #fd5932;
+        box-shadow: none;
+    }
+}
+#about:active,#block:active,#logo:active{
+ color: #03a9f4;
+}
+.active{
+    color: red;
+}

@@ -1,0 +1,18 @@
+@media only screen and (max-width: 480px) {
+    .heading{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .container{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 481px) {
+    .heading{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
